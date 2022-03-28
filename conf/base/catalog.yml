@@ -12,7 +12,7 @@ raw_income_statement:
   type: api.APIDataSet
   url: https://www.alphavantage.co/query
   params:
-    apikey: PKGAO06PXHBA9CPK
+    apikey: ${FINANCE_API}
     function: INCOME_STATEMENT
     symbol: IBM
 
@@ -20,7 +20,7 @@ raw_balance_statement:
   type: api.APIDataSet
   url: https://www.alphavantage.co/query
   params:
-    apikey: PKGAO06PXHBA9CPK
+    apikey: ${FINANCE_API}
     function: BALANCE_SHEET
     symbol: IBM
 
@@ -28,7 +28,7 @@ raw_cashflow_statement:
   type: api.APIDataSet
   url: https://www.alphavantage.co/query
   params:
-    apikey: PKGAO06PXHBA9CPK
+    apikey: ${FINANCE_API}
     function: CASH_FLOW
     symbol: IBM
 
